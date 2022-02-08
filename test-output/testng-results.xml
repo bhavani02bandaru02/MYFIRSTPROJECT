@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-08T17:59:27 IST" name="Default suite" finished-at="2022-02-08T17:59:36 IST" duration-ms="8449">
+    <groups>
+    </groups>
+    <test started-at="2022-02-08T17:59:27 IST" name="Default test" finished-at="2022-02-08T17:59:36 IST" duration-ms="8449">
+      <class name="com.organisation1.MyProject.basetest.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.organisation1.MyProject.basetest.LoginTest@293a5bf6]" started-at="2022-02-08T17:59:28 IST" name="setUp" finished-at="2022-02-08T17:59:32 IST" duration-ms="4543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Login()[pri:0, instance:com.organisation1.MyProject.basetest.LoginTest@293a5bf6]" started-at="2022-02-08T17:59:32 IST" name="Login" finished-at="2022-02-08T17:59:34 IST" duration-ms="2080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.organisation1.MyProject.basetest.LoginTest@293a5bf6]" started-at="2022-02-08T17:59:34 IST" name="tearDown" finished-at="2022-02-08T17:59:36 IST" duration-ms="1741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.organisation1.MyProject.basetest.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
