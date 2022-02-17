@@ -23,6 +23,7 @@ public class BasePage {
 	
 		public WebDriver init_driver(String browser)
 	 {
+			System.out.println("In basepage");
 		System.out.println("browser value is : " + browser);
 		if(browser.equalsIgnoreCase("chrome"))
 		{
@@ -35,7 +36,7 @@ public class BasePage {
 			driver = new FirefoxDriver();
 		}
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(200,TimeUnit.SECONDS);
 		return driver;
       }
 		
@@ -75,12 +76,5 @@ public class BasePage {
 				e.printStackTrace();
 			}
 			return path;
-		}
-
-
-
-		
-		
-		
-		
+		}		
 }		

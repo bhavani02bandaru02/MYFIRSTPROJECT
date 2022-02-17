@@ -28,4 +28,12 @@ public class ElementUtil {
 		getElement(locator).click();
 	}
 	
+	public String getText(By locator) {
+		String str=getElement(locator).getText();
+		return str;
+	}
+	
+	
+	
+	
 }

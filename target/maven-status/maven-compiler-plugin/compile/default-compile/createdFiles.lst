@@ -1,0 +1,7 @@
+com\organisation1\MyProject\base\BaseTest.class
+com\organisation1\MyProject\pages\LoginPage.class
+com\organisation1\MyProject\util\ElementUtil.class
+com\organisation1\MyProject\pages\CartPage.class
+com\organisation1\MyProject\base\BasePage.class
+com\organisation1\MyProject\util\ExcelUtil.class
+com\organisation1\MyProject\pages\AboutPage.class
