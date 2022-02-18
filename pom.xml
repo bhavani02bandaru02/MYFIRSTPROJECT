@@ -34,6 +34,14 @@
     <artifactId>poi-ooxml</artifactId>
     <version>5.0.0</version>
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/org.sonarsource.sonarqube/sonar-plugin-api -->
+<dependency>
+    <groupId>org.sonarsource.sonarqube</groupId>
+    <artifactId>sonar-plugin-api</artifactId>
+    <version>9.2.4.50792</version>
+</dependency>
+
 </dependencies>
 
 
@@ -43,8 +51,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.10.0</version>
-          
+          <version>3.10.0</version>        
         </plugin>
       </plugins>
     </pluginManagement>
